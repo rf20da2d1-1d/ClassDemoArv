@@ -1,0 +1,13 @@
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.exe
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.deps.json
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.runtimeconfig.json
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.runtimeconfig.dev.json
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.dll
+M:\uv\2020e-swc1\prog\ClassDemoArv\bin\Debug\netcoreapp3.1\ClassDemoArv.pdb
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.csprojAssemblyReference.cache
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.AssemblyInfoInputs.cache
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.AssemblyInfo.cs
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.csproj.CoreCompileInputs.cache
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.dll
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.pdb
+M:\uv\2020e-swc1\prog\ClassDemoArv\obj\Debug\netcoreapp3.1\ClassDemoArv.genruntimeconfig.cache
