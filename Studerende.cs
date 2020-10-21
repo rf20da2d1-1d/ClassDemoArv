@@ -2,23 +2,9 @@ using System;
 
 namespace ClassDemoArv
 {
-    public class Studerende
+    public class Studerende : Person
     {
-        private string _navn;
-        private string _tlf;
         private bool _DSRMedlem;
-
-        public string Navn
-        {
-            get { return _navn; }
-            set { _navn = value; }
-        }
-
-        public string Tlf
-        {
-            get { return _tlf; }
-            set { _tlf = value; }
-        }
 
         public bool DSRMedlem
         {
@@ -30,16 +16,16 @@ namespace ClassDemoArv
         {
         }
 
-        public Studerende(string navn, string tlf, bool dsrMedlem)
+        public Studerende(string navn, string tlf, bool dsrMedlem):base(navn, tlf)
         {
-            _navn = navn;
-            _tlf = tlf;
+            //_navn = navn;
+            //_tlf = tlf;
             _DSRMedlem = dsrMedlem;
         }
 
         public override string ToString()
         {
-            return $"Navn: {Navn}, Tlf: {Tlf}, DSRMedlem: {DSRMedlem}";
+            return base.ToString() +  $", DSRMedlem: {DSRMedlem}";
         }
     }
 
