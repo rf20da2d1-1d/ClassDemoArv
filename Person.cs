@@ -6,6 +6,7 @@ namespace ClassDemoArv
     {
         protected string _navn;
         protected string _tlf;
+        protected string _adr;
         
         public string Navn
         {
@@ -19,20 +20,27 @@ namespace ClassDemoArv
             set { _tlf = value; }
         }
 
+        public string Adr
+        {
+            get { return _adr; }
+            set { _adr = value; }
+        }
+
         
-        public Person():this("dummy", "01010101")
+        public Person():this("dummy", "01010101", "some City")
         {
         }
 
-        public Person(string navn, string tlf)
+        public Person(string navn, string tlf, string adr)
         {
             _navn = navn;
             _tlf = tlf;
+            _adr = adr;
         }
 
         public override string ToString()
         {
-            return $"Navn: {Navn}, Tlf: {Tlf}";
+            return $"Navn: {Navn}, Tlf: {Tlf}, Adr: {Adr}";
         }
     }
 }

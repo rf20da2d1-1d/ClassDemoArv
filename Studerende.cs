@@ -12,11 +12,11 @@ namespace ClassDemoArv
             set { _DSRMedlem = value; }
         }
 
-        public Studerende():this("dummy", "01010101", false)
+        public Studerende():this("dummy", "01010101", "city", false)
         {
         }
 
-        public Studerende(string navn, string tlf, bool dsrMedlem):base(navn, tlf)
+        public Studerende(string navn, string tlf, string adr, bool dsrMedlem):base(navn, tlf, adr)
         {
             //_navn = navn;
             //_tlf = tlf;

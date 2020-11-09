@@ -13,12 +13,12 @@ namespace ClassDemoArv
             set{_fag = value;}
         }
 
-        public Underviser(string navn, string tlf, string fag):base(navn, tlf)
+        public Underviser(string navn, string tlf, string adr, string fag):base(navn, tlf, adr)
         {
             _fag = fag;
         }
 
-        public Underviser():this("dummy", "no number", "SWC")
+        public Underviser():this("dummy", "no number", "a city", "SWC")
         {
 
         }
