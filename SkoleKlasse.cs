@@ -42,6 +42,22 @@ namespace ClassDemoArv
         }
 
         // show all teachers who teach in course
+        public List<Underviser> GetTeachers(String Fag)
+        {
+            List<Underviser> undervisere = new List<Underviser>();
+
+            foreach (var uv in _undervisere)
+            {
+                if (uv.Fag == Fag){
+                    undervisere.Add(uv);
+                    
+                }
+            }
+
+            return undervisere;
+        }
+
+        
 
         // show all student who are member of DSR
 

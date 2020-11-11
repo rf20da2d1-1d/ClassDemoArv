@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace ClassDemoArv
 {
@@ -41,12 +42,25 @@ namespace ClassDemoArv
             klasse.AddStudent(new Studerende("Anders B", "99334455", "Roskilde", false));
             klasse.AddStudent(new Studerende("Michael", "22338855", "København", true));
             klasse.AddStudent(new Studerende("Jens Peter", "919827364", "Næstved", false));
-            System.Console.WriteLine("===========================================");
-            System.Console.WriteLine(klasse);
-            System.Console.WriteLine("===========================================");
+            //System.Console.WriteLine("===========================================");
+            //System.Console.WriteLine(klasse);
+            //System.Console.WriteLine("===========================================");
+            
+            System.Console.WriteLine("Yoga");
+            List<Underviser> liste =  klasse.GetTeachers("Yoga");
+
+            foreach (var item in liste)
+            {
+                System.Console.WriteLine(item);
+            }
             
 
-
+            System.Console.WriteLine("SWC");
+            liste = klasse.GetTeachers("SWC");
+            foreach (var item in liste)
+            {
+                System.Console.WriteLine(item);
+            }
 
 
 
